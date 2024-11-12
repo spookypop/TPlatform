@@ -1,0 +1,14 @@
+[2024-11-11 16:03:39,179] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-11 16:49:47,309] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/register HTTP/1.1" 200 51
+[2024-11-11 16:52:08,266] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/login HTTP/1.1" 200 138
+[2024-11-11 16:52:14,523] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/login HTTP/1.1" 200 134
+[2024-11-11 16:52:17,455] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/login HTTP/1.1" 200 138
+[2024-11-11 16:53:59,146] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/login HTTP/1.1" 200 134
+[2024-11-11 16:54:40,405] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/login HTTP/1.1" 200 60
+[2024-11-11 16:55:32,719] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/login HTTP/1.1" 200 138
+[2024-11-11 16:56:12,431] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/TPlatform/settings.py changed, reloading.
+[2024-11-11 16:56:12,825] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-11 16:56:20,548] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-11 16:57:08,201] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/login HTTP/1.1" 200 51
+[2024-11-11 17:41:18,406] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/login HTTP/1.1" 200 51
+[2024-11-11 17:54:52,417] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/login HTTP/1.1" 200 51

@@ -1,0 +1,137 @@
+{
+	"info": {
+		"_postman_id": "b3994bcc-6088-437d-ab4b-c3e6105ba3dd",
+		"name": "driverApp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "司机登录login",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var data=JSON.parse(responseBody);\r",
+							"pm.globals.set(\"APPtoken\", data.data.token);\r",
+							"pm.test(\"Body matches string\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"Success\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cell\": \"{{cell}}\",\r\n    \"code\": \"{{code}}\",\r\n    \"imei\": \"860662030394931\",\r\n    \"model\": \"G0215D\",\r\n    \"platform_id\": 1101\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{app_testurl}}/api/v1/driver/login",
+					"host": [
+						"{{app_testurl}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"driver",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "获取配置信息getConfig",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Body matches string\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"Success\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ver_code\": 1,\r\n    \"mobile_type\": \"G0215D\",\r\n    \"os_type\": 1,\r\n    \"app_version\": \"1.0.0\",\r\n    \"net_work_type\": \"WIFI\",\r\n    \"lat\": 22.531939,\r\n    \"lng\": 114.02525,\r\n    \"token\": \"{{APPtoken}}\",\r\n    \"map_type\": \"amap\",\r\n    \"os_version\": \"6.0.1\",\r\n    \"channel\": 2010000001,\r\n    \"city_id\": 440300,\r\n    \"platform_id\": 1101\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{app_testurl}}/api/v1/driver/getConfig",
+					"host": [
+						"{{app_testurl}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"driver",
+						"getConfig"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "APP首页index",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Body matches string\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"Success\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ver_code\": 1,\r\n    \"mobile_type\": \"G0215D\",\r\n    \"os_type\": 1,\r\n    \"app_version\": \"1.0.0\",\r\n    \"net_work_type\": \"WIFI\",\r\n    \"lat\": 22.531939,\r\n    \"lng\": 114.02525,\r\n    \"token\": \"{{APPtoken}}\",\r\n    \"map_type\": \"amap\",\r\n    \"os_version\": \"6.0.1\",\r\n    \"channel\": 2010000001,\r\n    \"city_id\": 440300,\r\n    \"platform_id\": 1101\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{app_testurl}}/api/v1/driver/index",
+					"host": [
+						"{{app_testurl}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"driver",
+						"index"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

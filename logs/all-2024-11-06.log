@@ -1,0 +1,10 @@
+[2024-11-06 18:44:17,464] [autoreload.py:668] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-06 18:45:04,389] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-06 18:58:30,330] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/register HTTP/1.1" 200 94
+[2024-11-06 20:26:54,714] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/group/views.py changed, reloading.
+[2024-11-06 20:26:55,661] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-06 20:27:51,104] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/register HTTP/1.1" 200 94
+[2024-11-06 20:28:01,656] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/register HTTP/1.1" 200 57
+[2024-11-06 20:29:14,751] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/register HTTP/1.1" 200 94
+[2024-11-06 20:42:11,367] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/register HTTP/1.1" 200 94
+[2024-11-06 20:42:23,149] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/register HTTP/1.1" 200 48

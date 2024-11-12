@@ -1,0 +1,112 @@
+[2022-04-20 17:33:12,683] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-20 17:33:18,407] [basehttp.py:187] [basehttp:log_message] [INFO]- "OPTIONS /case/sprintlist HTTP/1.1" 200 0
+[2022-04-20 17:33:18,415] [log.py:241] [log:log_response] [WARNING]- Forbidden: /case/sprintlist
+[2022-04-20 17:33:18,415] [basehttp.py:187] [basehttp:log_message] [WARNING]- "POST /case/sprintlist HTTP/1.1" 403 28
+[2022-04-20 17:33:22,257] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/login HTTP/1.1" 200 134
+[2022-04-20 17:33:28,232] [basehttp.py:187] [basehttp:log_message] [INFO]- "OPTIONS /case/sprintlist HTTP/1.1" 200 0
+[2022-04-20 17:33:28,334] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/sprintlist HTTP/1.1" 200 2
+[2022-04-20 17:33:28,876] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/sprintlist HTTP/1.1" 200 2
+[2022-04-20 17:33:34,105] [basehttp.py:187] [basehttp:log_message] [INFO]- "OPTIONS /case/createsprint HTTP/1.1" 200 0
+[2022-04-20 17:33:34,248] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/createsprint HTTP/1.1" 200 36
+[2022-04-20 17:33:35,845] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/sprintlist HTTP/1.1" 200 46
+[2022-04-20 17:33:40,225] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/sprintlist HTTP/1.1" 200 46
+[2022-04-20 17:33:41,044] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/sprintlist HTTP/1.1" 200 46
+[2022-04-20 17:33:43,110] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/sprintlist HTTP/1.1" 200 46
+[2022-04-20 17:42:14,533] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-20 17:42:18,827] [log.py:241] [log:log_response] [WARNING]- Forbidden: /case/sprintlist
+[2022-04-20 17:42:18,827] [basehttp.py:187] [basehttp:log_message] [WARNING]- "POST /case/sprintlist HTTP/1.1" 403 28
+[2022-04-21 15:17:00,121] [basehttp.py:187] [basehttp:log_message] [INFO]- "OPTIONS /group/logout HTTP/1.1" 200 0
+[2022-04-21 15:17:00,359] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /group/logout
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/yehl/Documents/testPlaform/TPlatform/group/views.py", line 78, in post
+    user_result = users.objects.get(username=username)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 496, in get
+    raise self.model.DoesNotExist(
+group.models.users.DoesNotExist: users matching query does not exist.
+[2022-04-21 15:17:00,360] [basehttp.py:187] [basehttp:log_message] [ERROR]- "POST /group/logout HTTP/1.1" 500 98619
+[2022-04-21 15:17:27,282] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /group/logout
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/yehl/Documents/testPlaform/TPlatform/group/views.py", line 78, in post
+    user_result = users.objects.get(username=username)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 496, in get
+    raise self.model.DoesNotExist(
+group.models.users.DoesNotExist: users matching query does not exist.
+[2022-04-21 15:17:27,283] [basehttp.py:187] [basehttp:log_message] [ERROR]- "POST /group/logout HTTP/1.1" 500 98619
+[2022-04-21 15:17:27,349] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /group/logout
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/yehl/Documents/testPlaform/TPlatform/group/views.py", line 78, in post
+    user_result = users.objects.get(username=username)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 496, in get
+    raise self.model.DoesNotExist(
+group.models.users.DoesNotExist: users matching query does not exist.
+[2022-04-21 15:17:27,350] [basehttp.py:187] [basehttp:log_message] [ERROR]- "POST /group/logout HTTP/1.1" 500 98619
+[2022-04-21 15:18:11,279] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/login HTTP/1.1" 200 134
+[2022-04-21 15:18:16,308] [basehttp.py:187] [basehttp:log_message] [INFO]- "OPTIONS /group/logout HTTP/1.1" 200 0
+[2022-04-21 15:18:16,458] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/logout HTTP/1.1" 200 55
+[2022-04-21 15:18:18,458] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/login HTTP/1.1" 200 134
+[2022-04-21 15:18:28,905] [basehttp.py:187] [basehttp:log_message] [INFO]- "OPTIONS /case/sprintlist HTTP/1.1" 200 0
+[2022-04-21 15:18:29,021] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/sprintlist HTTP/1.1" 200 46
+[2022-04-21 15:18:30,099] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/sprintlist HTTP/1.1" 200 46
+[2022-04-21 15:18:39,678] [basehttp.py:187] [basehttp:log_message] [INFO]- "OPTIONS /case/createsprint HTTP/1.1" 200 0
+[2022-04-21 15:18:39,768] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/createsprint HTTP/1.1" 200 36
+[2022-04-21 15:18:41,279] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/sprintlist HTTP/1.1" 200 89
+[2022-04-21 15:18:44,960] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/sprintlist HTTP/1.1" 200 89
+[2022-04-21 15:18:45,858] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/sprintlist HTTP/1.1" 200 89
+[2022-04-21 15:18:46,622] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/sprintlist HTTP/1.1" 200 89
+[2022-04-21 15:18:53,579] [basehttp.py:187] [basehttp:log_message] [INFO]- "OPTIONS /case/create_case HTTP/1.1" 200 0
+[2022-04-21 15:18:53,728] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/create_case HTTP/1.1" 200 36
+[2022-04-21 15:18:54,962] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/sprintlist HTTP/1.1" 200 89

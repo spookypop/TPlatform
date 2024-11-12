@@ -1,0 +1,24 @@
+[2022-08-19 09:52:52,137] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-19 09:52:58,944] [basehttp.py:187] [basehttp:log_message] [INFO]- "OPTIONS /ui/uilist HTTP/1.1" 200 0
+[2022-08-19 09:52:58,955] [log.py:241] [log:log_response] [WARNING]- Forbidden: /ui/uilist
+[2022-08-19 09:52:58,956] [basehttp.py:187] [basehttp:log_message] [WARNING]- "POST /ui/uilist HTTP/1.1" 403 28
+[2022-08-19 09:53:10,082] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/login HTTP/1.1" 200 58
+[2022-08-19 09:53:22,244] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/register HTTP/1.1" 200 49
+[2022-08-19 09:53:46,647] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/login HTTP/1.1" 200 49
+[2022-08-19 09:53:54,176] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/register HTTP/1.1" 200 92
+[2022-08-19 09:54:02,856] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/login HTTP/1.1" 200 49
+[2022-08-19 09:54:05,640] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/register HTTP/1.1" 200 36
+[2022-08-19 09:54:18,022] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/login HTTP/1.1" 200 136
+[2022-08-19 09:54:22,849] [basehttp.py:187] [basehttp:log_message] [INFO]- "OPTIONS /ui/uilist HTTP/1.1" 200 0
+[2022-08-19 09:54:22,882] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /ui/uilist HTTP/1.1" 200 109
+[2022-08-19 09:54:35,721] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /ui/uilist HTTP/1.1" 200 109
+[2022-08-19 09:54:37,414] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /ui/uilist HTTP/1.1" 200 109
+[2022-08-19 09:54:57,928] [basehttp.py:187] [basehttp:log_message] [INFO]- "OPTIONS /ui/stepslist HTTP/1.1" 200 0
+[2022-08-19 09:54:57,943] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /ui/stepslist HTTP/1.1" 200 278
+[2022-08-19 09:55:03,079] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /ui/uilist HTTP/1.1" 200 109
+[2022-08-19 10:07:15,382] [basehttp.py:187] [basehttp:log_message] [INFO]- "OPTIONS /case/sprintlist HTTP/1.1" 200 0
+[2022-08-19 10:07:15,404] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/sprintlist HTTP/1.1" 200 49
+[2022-08-19 10:10:02,448] [basehttp.py:187] [basehttp:log_message] [INFO]- "OPTIONS /postman/file_list HTTP/1.1" 200 0
+[2022-08-19 10:10:02,449] [basehttp.py:187] [basehttp:log_message] [INFO]- "OPTIONS /postman/file_list HTTP/1.1" 200 0
+[2022-08-19 10:10:02,468] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /postman/file_list HTTP/1.1" 200 282
+[2022-08-19 10:10:02,468] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /postman/file_list HTTP/1.1" 200 550

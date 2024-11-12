@@ -1,0 +1,13 @@
+[2022-04-15 19:09:24,633] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-16 12:39:44,708] [basehttp.py:187] [basehttp:log_message] [INFO]- "OPTIONS /postman/file_list HTTP/1.1" 200 0
+[2022-04-16 12:39:44,709] [basehttp.py:187] [basehttp:log_message] [INFO]- "OPTIONS /postman/file_list HTTP/1.1" 200 0
+[2022-04-16 12:39:44,727] [log.py:241] [log:log_response] [WARNING]- Forbidden: /postman/file_list
+[2022-04-16 12:39:44,727] [log.py:241] [log:log_response] [WARNING]- Forbidden: /postman/file_list
+[2022-04-16 12:39:44,728] [basehttp.py:187] [basehttp:log_message] [WARNING]- "POST /postman/file_list HTTP/1.1" 403 28
+[2022-04-16 12:39:44,728] [basehttp.py:187] [basehttp:log_message] [WARNING]- "POST /postman/file_list HTTP/1.1" 403 28
+[2022-04-16 12:45:37,248] [basehttp.py:187] [basehttp:log_message] [INFO]- "OPTIONS /group/logout HTTP/1.1" 200 0
+[2022-04-16 12:45:37,275] [log.py:241] [log:log_response] [WARNING]- Not Found: /group/logout
+[2022-04-16 12:45:37,275] [basehttp.py:187] [basehttp:log_message] [WARNING]- "POST /group/logout HTTP/1.1" 404 2750
+[2022-04-16 15:00:19,513] [log.py:241] [log:log_response] [WARNING]- Not Found: /group/logout
+[2022-04-16 15:00:19,517] [basehttp.py:187] [basehttp:log_message] [WARNING]- "POST /group/logout HTTP/1.1" 404 2750
+[2022-04-16 15:02:02,028] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/group/urls.py changed, reloading.

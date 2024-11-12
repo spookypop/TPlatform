@@ -1,0 +1,3 @@
+[2023-12-13 13:20:09,219] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-12-13 13:20:21,445] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-12-13 13:20:48,205] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/register HTTP/1.1" 200 46

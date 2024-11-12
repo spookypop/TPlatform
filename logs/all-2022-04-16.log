@@ -1,0 +1,79 @@
+[2022-04-16 15:02:02,554] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-16 15:02:51,669] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/group/views.py changed, reloading.
+[2022-04-16 15:02:52,073] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-16 15:02:56,415] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/logout HTTP/1.1" 200 55
+[2022-04-16 15:02:56,471] [log.py:241] [log:log_response] [WARNING]- Not Found: /:3000/login
+[2022-04-16 15:02:56,472] [basehttp.py:187] [basehttp:log_message] [WARNING]- "GET /:3000/login HTTP/1.1" 404 2533
+[2022-04-16 15:05:49,656] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/logout HTTP/1.1" 200 49
+[2022-04-16 18:26:54,363] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/logout HTTP/1.1" 200 49
+[2022-04-17 16:05:24,618] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/login HTTP/1.1" 200 136
+[2022-04-17 16:07:05,100] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/login HTTP/1.1" 200 49
+[2022-04-17 16:07:45,638] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/register HTTP/1.1" 200 36
+[2022-04-17 16:07:57,627] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/login HTTP/1.1" 200 134
+[2022-04-17 16:11:06,694] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/login HTTP/1.1" 200 134
+[2022-04-17 16:13:42,992] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/login HTTP/1.1" 200 134
+[2022-04-17 16:14:34,102] [basehttp.py:187] [basehttp:log_message] [INFO]- "OPTIONS /case/sprintlist HTTP/1.1" 200 0
+[2022-04-17 16:14:34,134] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/sprintlist HTTP/1.1" 200 2
+[2022-04-17 16:14:34,885] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/sprintlist HTTP/1.1" 200 2
+[2022-04-17 16:14:37,504] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/sprintlist HTTP/1.1" 200 2
+[2022-04-17 16:14:50,636] [basehttp.py:187] [basehttp:log_message] [INFO]- "OPTIONS /case/createsprint HTTP/1.1" 200 0
+[2022-04-17 16:14:50,662] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/createsprint HTTP/1.1" 200 36
+[2022-04-17 16:14:52,907] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/sprintlist HTTP/1.1" 200 49
+[2022-04-17 16:15:01,103] [basehttp.py:187] [basehttp:log_message] [INFO]- "OPTIONS /case/updatesprint HTTP/1.1" 200 0
+[2022-04-17 16:15:01,126] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/updatesprint HTTP/1.1" 200 36
+[2022-04-17 16:15:01,324] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/sprintlist HTTP/1.1" 200 49
+[2022-04-17 16:15:21,265] [basehttp.py:187] [basehttp:log_message] [INFO]- "OPTIONS /case/caseimport HTTP/1.1" 200 0
+[2022-04-17 16:15:21,387] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/caseimport HTTP/1.1" 200 36
+[2022-04-17 16:15:22,752] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/sprintlist HTTP/1.1" 200 49
+[2022-04-17 16:15:25,936] [basehttp.py:187] [basehttp:log_message] [INFO]- "OPTIONS /case/count_case HTTP/1.1" 200 0
+[2022-04-17 16:15:25,936] [basehttp.py:187] [basehttp:log_message] [INFO]- "OPTIONS /case/caselist/%E8%BF%AD%E4%BB%A30417 HTTP/1.1" 200 0
+[2022-04-17 16:15:25,970] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/caselist/%E8%BF%AD%E4%BB%A30417 HTTP/1.1" 200 1398
+[2022-04-17 16:15:25,972] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/count_case HTTP/1.1" 200 62
+[2022-04-17 16:15:32,097] [basehttp.py:187] [basehttp:log_message] [INFO]- "OPTIONS /case/update_result HTTP/1.1" 200 0
+[2022-04-17 16:15:32,110] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/update_result HTTP/1.1" 200 36
+[2022-04-17 16:15:32,321] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/caselist/%E8%BF%AD%E4%BB%A30417 HTTP/1.1" 200 1398
+[2022-04-17 16:15:32,331] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/count_case HTTP/1.1" 200 63
+[2022-04-17 16:15:43,337] [basehttp.py:187] [basehttp:log_message] [INFO]- "OPTIONS /case/delete_case HTTP/1.1" 200 0
+[2022-04-17 16:15:43,350] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/delete_case HTTP/1.1" 200 36
+[2022-04-17 16:15:45,050] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/caselist/%E8%BF%AD%E4%BB%A30417 HTTP/1.1" 200 1250
+[2022-04-17 16:15:45,057] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/count_case HTTP/1.1" 200 63
+[2022-04-17 16:15:48,689] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/sprintlist HTTP/1.1" 200 49
+[2022-04-17 16:15:49,486] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/sprintlist HTTP/1.1" 200 49
+[2022-04-17 16:15:50,234] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/sprintlist HTTP/1.1" 200 49
+[2022-04-17 16:16:11,849] [basehttp.py:187] [basehttp:log_message] [INFO]- "OPTIONS /case/create_case HTTP/1.1" 200 0
+[2022-04-17 16:16:11,868] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/create_case HTTP/1.1" 200 36
+[2022-04-17 16:16:13,614] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/sprintlist HTTP/1.1" 200 49
+[2022-04-17 16:16:17,729] [basehttp.py:187] [basehttp:log_message] [INFO]- "OPTIONS /postman/file_list HTTP/1.1" 200 0
+[2022-04-17 16:16:17,729] [basehttp.py:187] [basehttp:log_message] [INFO]- "OPTIONS /postman/file_list HTTP/1.1" 200 0
+[2022-04-17 16:16:17,753] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /postman/file_list HTTP/1.1" 200 26
+[2022-04-17 16:16:17,753] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /postman/file_list HTTP/1.1" 200 26
+[2022-04-17 16:22:19,816] [basehttp.py:187] [basehttp:log_message] [INFO]- "OPTIONS /ui/createui HTTP/1.1" 200 0
+[2022-04-17 16:22:19,859] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /ui/createui HTTP/1.1" 200 36
+[2022-04-17 16:22:21,741] [basehttp.py:187] [basehttp:log_message] [INFO]- "OPTIONS /ui/uilist HTTP/1.1" 200 0
+[2022-04-17 16:22:21,754] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /ui/uilist HTTP/1.1" 200 109
+[2022-04-17 16:22:31,019] [basehttp.py:187] [basehttp:log_message] [INFO]- "OPTIONS /ui/stepslist HTTP/1.1" 200 0
+[2022-04-17 16:22:31,036] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /ui/stepslist HTTP/1.1" 200 26
+[2022-04-17 16:22:55,880] [basehttp.py:187] [basehttp:log_message] [INFO]- "OPTIONS /ui/createstep HTTP/1.1" 200 0
+[2022-04-17 16:22:55,894] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /ui/createstep HTTP/1.1" 200 28
+[2022-04-17 16:22:57,623] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /ui/stepslist HTTP/1.1" 200 182
+[2022-04-17 16:23:07,679] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /ui/createstep HTTP/1.1" 200 28
+[2022-04-17 16:23:09,107] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /ui/stepslist HTTP/1.1" 200 278
+[2022-04-17 16:23:13,445] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /ui/uilist HTTP/1.1" 200 109
+[2022-04-17 16:23:16,881] [basehttp.py:187] [basehttp:log_message] [INFO]- "OPTIONS /ui/run HTTP/1.1" 200 0
+[2022-04-17 16:23:57,188] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /ui/run HTTP/1.1" 200 28
+[2022-04-17 16:23:57,540] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /ui/uilist HTTP/1.1" 200 115
+[2022-04-17 22:11:38,753] [log.py:241] [log:log_response] [WARNING]- Forbidden: /ui/run
+[2022-04-17 22:11:38,755] [basehttp.py:187] [basehttp:log_message] [WARNING]- "POST /ui/run HTTP/1.1" 403 28
+[2022-04-17 22:11:40,980] [log.py:241] [log:log_response] [WARNING]- Forbidden: /ui/uilist
+[2022-04-17 22:11:40,981] [basehttp.py:187] [basehttp:log_message] [WARNING]- "POST /ui/uilist HTTP/1.1" 403 28
+[2022-04-17 22:11:47,391] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/login HTTP/1.1" 200 130
+[2022-04-17 22:11:50,126] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /ui/uilist HTTP/1.1" 200 115
+[2022-04-17 22:12:07,560] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /ui/uilist HTTP/1.1" 200 115
+[2022-04-17 22:12:09,768] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /ui/run HTTP/1.1" 200 28
+[2022-04-17 22:12:09,768] [basehttp.py:80] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 62779)
+
+[2022-04-17 22:14:55,338] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /ui/uilist HTTP/1.1" 200 115
+[2022-04-17 22:15:16,971] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /ui/run HTTP/1.1" 200 28
+[2022-04-17 22:15:17,234] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /ui/uilist HTTP/1.1" 200 115
+[2022-04-17 22:15:29,092] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /ui/uilist HTTP/1.1" 200 115
+[2022-04-17 22:17:35,266] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/TPlatform/settings.py changed, reloading.

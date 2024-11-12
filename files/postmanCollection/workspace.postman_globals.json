@@ -1,0 +1,79 @@
+{
+	"id": "b057549a-3b34-466f-82a8-1b57020972a1",
+	"values": [
+		{
+			"key": "token",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "user_id",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "H5token",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "driver_id",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "Employee_sex",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "Name",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "randomIDcardno",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "random_code",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "cell",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "addNum",
+			"value": "153",
+			"enabled": true
+		},
+		{
+			"key": "phoneNum",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "estimate_id",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "APPtoken",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "order_id",
+			"value": "",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2022-03-24T03:40:21.328Z",
+	"_postman_exported_using": "Postman/9.14.14"
+}

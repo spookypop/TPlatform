@@ -1,0 +1,92 @@
+{
+	"info": {
+		"_postman_id": "af57964f-67bb-4a27-8c02-4df1e8d4a0f1",
+		"name": "estimate",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "预估",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "from_lat",
+							"value": "22.532195",
+							"type": "text"
+						},
+						{
+							"key": "from_lng",
+							"value": "114.025823",
+							"type": "text"
+						},
+						{
+							"key": "from_address",
+							"value": "泰然科技园213栋",
+							"type": "text"
+						},
+						{
+							"key": "to_lat",
+							"value": "22.534154",
+							"type": "text"
+						},
+						{
+							"key": "to_lng",
+							"value": "114.012179",
+							"type": "text"
+						},
+						{
+							"key": "to_address",
+							"value": "竹子林(观光巴士站)(公交站)",
+							"type": "text"
+						},
+						{
+							"key": "district",
+							"value": "0755",
+							"type": "text"
+						},
+						{
+							"key": "(empty)",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://passenger.feitianpubu.com:7200/passenger/v1/estimate",
+					"protocol": "http",
+					"host": [
+						"passenger",
+						"feitianpubu",
+						"com"
+					],
+					"port": "7200",
+					"path": [
+						"passenger",
+						"v1",
+						"estimate"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

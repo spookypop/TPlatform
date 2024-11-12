@@ -1,0 +1,8 @@
+[2022-08-18 18:32:14,046] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-18 18:34:18,100] [basehttp.py:187] [basehttp:log_message] [INFO]- "OPTIONS /group/logout HTTP/1.1" 200 0
+[2022-08-18 18:34:18,206] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/logout HTTP/1.1" 200 55
+[2022-08-18 18:34:21,946] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/login HTTP/1.1" 200 134
+[2022-08-18 18:34:26,730] [basehttp.py:187] [basehttp:log_message] [INFO]- "OPTIONS /group/logout HTTP/1.1" 200 0
+[2022-08-18 18:34:26,748] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/logout HTTP/1.1" 200 55
+[2022-08-18 18:41:30,783] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/register HTTP/1.1" 200 92
+[2022-08-18 18:41:41,489] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/register HTTP/1.1" 200 36

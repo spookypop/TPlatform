@@ -1,0 +1,61 @@
+[2022-04-17 22:17:35,792] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-17 22:18:41,926] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/UiAuto/views.py changed, reloading.
+[2022-04-17 22:18:42,354] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-17 22:19:13,216] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /ui/run HTTP/1.1" 200 28
+[2022-04-17 22:19:13,605] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /ui/uilist HTTP/1.1" 200 109
+[2022-04-17 22:20:15,659] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /ui/stepslist HTTP/1.1" 200 278
+[2022-04-17 22:20:19,079] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /ui/uilist HTTP/1.1" 200 109
+[2022-04-17 22:21:11,748] [basehttp.py:187] [basehttp:log_message] [INFO]- "OPTIONS /postman/upload_file HTTP/1.1" 200 0
+[2022-04-17 22:21:11,812] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /postman/upload_file HTTP/1.1" 200 46
+[2022-04-17 22:21:29,078] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /postman/file_list HTTP/1.1" 200 282
+[2022-04-17 22:21:29,081] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /postman/file_list HTTP/1.1" 200 26
+[2022-04-17 22:21:51,470] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /postman/upload_file HTTP/1.1" 200 46
+[2022-04-17 22:22:06,566] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /postman/upload_file HTTP/1.1" 200 46
+[2022-04-17 22:22:09,970] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /postman/file_list HTTP/1.1" 200 282
+[2022-04-17 22:22:09,971] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /postman/file_list HTTP/1.1" 200 288
+[2022-04-17 22:29:05,271] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /postman/file_list HTTP/1.1" 200 282
+[2022-04-17 22:29:05,273] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /postman/file_list HTTP/1.1" 200 288
+[2022-04-17 22:29:19,309] [basehttp.py:187] [basehttp:log_message] [INFO]- "OPTIONS /postman/run_collection HTTP/1.1" 200 0
+[2022-04-17 22:29:21,005] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /postman/run_collection HTTP/1.1" 200 2956
+[2022-04-17 22:32:42,514] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /postman/file_list HTTP/1.1" 200 288
+[2022-04-17 22:32:42,514] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /postman/file_list HTTP/1.1" 200 282
+[2022-04-17 22:33:53,032] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /postman/file_list HTTP/1.1" 200 288
+[2022-04-17 22:33:53,033] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /postman/file_list HTTP/1.1" 200 282
+[2022-04-17 22:34:06,806] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /postman/file_list HTTP/1.1" 200 282
+[2022-04-17 22:34:06,807] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /postman/file_list HTTP/1.1" 200 288
+[2022-04-17 22:34:13,884] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /postman/run_collection HTTP/1.1" 200 2956
+[2022-04-17 22:37:31,780] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/PostmanApi/views.py changed, reloading.
+[2022-04-17 22:37:32,431] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-04-17 22:38:34,322] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /postman/run_collection HTTP/1.1" 200 2904
+[2022-04-17 22:39:49,564] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /postman/upload_file HTTP/1.1" 200 46
+[2022-04-17 22:39:53,782] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /postman/file_list HTTP/1.1" 200 282
+[2022-04-17 22:39:53,785] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /postman/file_list HTTP/1.1" 200 550
+[2022-04-17 22:40:00,643] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /postman/run_collection HTTP/1.1" 200 4255
+[2022-04-17 22:42:14,504] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /postman/run_collection
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/yehl/Documents/testPlaform/TPlatform/PostmanApi/views.py", line 168, in post
+    f' --delay-request {int(delay)} ')
+ValueError: invalid literal for int() with base 10: ''
+[2022-04-17 22:42:14,505] [basehttp.py:187] [basehttp:log_message] [ERROR]- "POST /postman/run_collection HTTP/1.1" 500 92626
+[2022-04-17 22:42:21,872] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /postman/file_list HTTP/1.1" 200 550
+[2022-04-17 22:42:21,872] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /postman/file_list HTTP/1.1" 200 282
+[2022-04-17 22:42:27,897] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/sprintlist HTTP/1.1" 200 49
+[2022-04-17 22:48:17,722] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /ui/uilist HTTP/1.1" 200 109
+[2022-04-17 22:48:20,176] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /ui/stepslist HTTP/1.1" 200 278
+[2022-04-17 22:50:14,313] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /ui/stepslist HTTP/1.1" 200 278

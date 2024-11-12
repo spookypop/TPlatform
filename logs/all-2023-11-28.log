@@ -1,0 +1,10 @@
+[2023-11-28 10:59:16,002] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-11-28 11:02:01,947] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/login?username=spooky&password=12345 HTTP/1.1" 200 49
+[2023-11-28 11:02:26,533] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/login?username=yehl&password=123456 HTTP/1.1" 200 49
+[2023-11-28 11:02:58,022] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/login?username=yhl&password=123456 HTTP/1.1" 200 49
+[2023-11-28 11:03:24,329] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/login?username=%E5%B0%8F%E5%8F%B6&password=123456 HTTP/1.1" 200 49
+[2023-11-28 11:05:59,059] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/login?username=%E5%B0%8F%E6%98%8E&password=123456 HTTP/1.1" 200 49
+[2023-11-28 11:07:11,478] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/login HTTP/1.1" 200 58
+[2023-11-28 11:08:12,027] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/register HTTP/1.1" 200 92
+[2023-11-28 11:08:23,226] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/register HTTP/1.1" 200 92
+[2023-11-28 11:08:37,611] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/register HTTP/1.1" 200 36
