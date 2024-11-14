@@ -1,0 +1,258 @@
+[2024-11-14 15:14:00,494] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-14 15:14:42,515] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-14 15:15:41,340] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/group/urls.py changed, reloading.
+[2024-11-14 15:15:41,681] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-14 15:16:18,422] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/group/urls.py changed, reloading.
+[2024-11-14 15:16:18,783] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-14 15:16:38,197] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/group/urls.py changed, reloading.
+[2024-11-14 15:16:38,468] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-14 15:16:57,806] [log.py:241] [log:log_response] [WARNING]- Not Found: /group/userlist
+[2024-11-14 15:16:57,807] [basehttp.py:187] [basehttp:log_message] [WARNING]- "GET /group/userlist HTTP/1.1" 404 3237
+[2024-11-14 15:17:32,698] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /group/userList HTTP/1.1" 200 2795
+[2024-11-14 15:18:52,524] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /group/userList?id=38 HTTP/1.1" 200 2795
+[2024-11-14 15:19:15,145] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /group/userList?username=%E5%B0%8F%E6%98%8E HTTP/1.1" 200 2795
+[2024-11-14 15:22:18,250] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/group/urls.py changed, reloading.
+[2024-11-14 15:22:18,566] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-14 15:22:24,693] [log.py:241] [log:log_response] [WARNING]- Not Found: /group/userList
+[2024-11-14 15:22:24,694] [basehttp.py:187] [basehttp:log_message] [WARNING]- "GET /group/userList?username=%E5%B0%8F%E6%98%8E HTTP/1.1" 404 3286
+[2024-11-14 15:23:47,563] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /group/userList/小明
+Traceback (most recent call last):
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: GroupList.get() got an unexpected keyword argument 'username'
+[2024-11-14 15:23:47,565] [basehttp.py:187] [basehttp:log_message] [ERROR]- "GET /group/userList/%E5%B0%8F%E6%98%8E HTTP/1.1" 500 84075
+[2024-11-14 15:23:58,083] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /group/userList/"小明"
+Traceback (most recent call last):
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: GroupList.get() got an unexpected keyword argument 'username'
+[2024-11-14 15:23:58,083] [basehttp.py:187] [basehttp:log_message] [ERROR]- "GET /group/userList/%22%E5%B0%8F%E6%98%8E%22 HTTP/1.1" 500 84267
+[2024-11-14 15:24:12,326] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/group/urls.py changed, reloading.
+[2024-11-14 15:24:12,640] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-14 15:24:20,668] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /group/userList HTTP/1.1" 200 2795
+[2024-11-14 15:29:39,132] [log.py:241] [log:log_response] [WARNING]- Not Found: /group/userList/1
+[2024-11-14 15:29:39,133] [basehttp.py:187] [basehttp:log_message] [WARNING]- "GET /group/userList/1 HTTP/1.1" 404 3243
+[2024-11-14 15:38:10,637] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/group/serializer.py changed, reloading.
+[2024-11-14 15:38:10,957] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-14 15:38:15,141] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /group/userList HTTP/1.1" 200 2795
+[2024-11-14 15:38:33,528] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/group/serializer.py changed, reloading.
+[2024-11-14 15:38:33,807] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-14 15:38:40,590] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /group/userList HTTP/1.1" 200 2795
+[2024-11-14 15:39:18,637] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/group/serializer.py changed, reloading.
+[2024-11-14 15:39:18,963] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-14 15:39:23,189] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/group/serializer.py changed, reloading.
+[2024-11-14 15:39:23,440] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-14 15:39:25,836] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /group/userList HTTP/1.1" 200 2795
+[2024-11-14 15:39:45,972] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/group/serializer.py changed, reloading.
+[2024-11-14 15:39:46,270] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-14 15:39:48,467] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/group/serializer.py changed, reloading.
+[2024-11-14 15:39:48,710] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-14 15:40:18,218] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/group/views.py changed, reloading.
+[2024-11-14 15:40:18,536] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-14 15:46:50,145] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/group/views.py changed, reloading.
+[2024-11-14 15:46:50,499] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-14 15:47:01,439] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /group/userList
+Traceback (most recent call last):
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/request.py", line 416, in __getattr__
+    return getattr(self._request, attr)
+AttributeError: 'WSGIRequest' object has no attribute 'Get'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/yehl/Documents/testPlaform/TPlatform/group/views.py", line 101, in get
+    user_id = request.Get.get("id")
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/request.py", line 418, in __getattr__
+    return self.__getattribute__(attr)
+AttributeError: 'Request' object has no attribute 'Get'
+[2024-11-14 15:47:01,442] [basehttp.py:187] [basehttp:log_message] [ERROR]- "GET /group/userList?id=38 HTTP/1.1" 500 97099
+[2024-11-14 15:48:48,235] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/group/views.py changed, reloading.
+[2024-11-14 15:48:48,555] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-14 15:48:51,674] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /group/userList
+Traceback (most recent call last):
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/request.py", line 416, in __getattr__
+    return getattr(self._request, attr)
+AttributeError: 'WSGIRequest' object has no attribute 'Get'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/yehl/Documents/testPlaform/TPlatform/group/views.py", line 102, in get
+    username = request.Get.get("username")
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/request.py", line 418, in __getattr__
+    return self.__getattribute__(attr)
+AttributeError: 'Request' object has no attribute 'Get'
+[2024-11-14 15:48:51,677] [basehttp.py:187] [basehttp:log_message] [ERROR]- "GET /group/userList?id=38 HTTP/1.1" 500 97336
+[2024-11-14 15:49:45,589] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/group/views.py changed, reloading.
+[2024-11-14 15:49:45,911] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-14 15:54:49,257] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/group/views.py changed, reloading.
+[2024-11-14 15:54:49,587] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-14 15:56:33,400] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/group/views.py changed, reloading.
+[2024-11-14 15:56:33,701] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-14 15:56:37,251] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /group/userList
+Traceback (most recent call last):
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/request.py", line 416, in __getattr__
+    return getattr(self._request, attr)
+AttributeError: 'WSGIRequest' object has no attribute 'object'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/yehl/Documents/testPlaform/TPlatform/group/views.py", line 101, in get
+    user_id = request.object.get("id")
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/request.py", line 418, in __getattr__
+    return self.__getattribute__(attr)
+AttributeError: 'Request' object has no attribute 'object'
+[2024-11-14 15:56:37,253] [basehttp.py:187] [basehttp:log_message] [ERROR]- "GET /group/userList?id=38 HTTP/1.1" 500 97138
+[2024-11-14 15:58:42,670] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/group/views.py changed, reloading.
+[2024-11-14 15:58:42,982] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-14 15:58:47,235] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/group/views.py changed, reloading.
+[2024-11-14 15:58:47,443] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-14 15:58:49,741] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /group/userList?id=38 HTTP/1.1" 200 2795
+[2024-11-14 16:00:45,245] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/group/views.py changed, reloading.
+[2024-11-14 16:00:45,576] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-14 16:01:18,131] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/group/views.py changed, reloading.
+[2024-11-14 16:01:18,448] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-14 16:01:21,233] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /group/userList
+Traceback (most recent call last):
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/yehl/Documents/testPlaform/TPlatform/group/views.py", line 101, in get
+    user_id = request.query_params("id")
+TypeError: 'QueryDict' object is not callable
+[2024-11-14 16:01:21,235] [basehttp.py:187] [basehttp:log_message] [ERROR]- "GET /group/userList?id=38 HTTP/1.1" 500 89078
+[2024-11-14 16:01:39,962] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/group/views.py changed, reloading.
+[2024-11-14 16:01:40,242] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-14 16:01:43,040] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /group/userList
+Traceback (most recent call last):
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/yehl/Documents/testPlaform/TPlatform/group/views.py", line 106, in get
+    return Response(serialize.data, status=status.HTTP_200_OK)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+TypeError: 'users' object is not iterable
+[2024-11-14 16:01:43,042] [basehttp.py:187] [basehttp:log_message] [ERROR]- "GET /group/userList?id=38 HTTP/1.1" 500 100046
+[2024-11-14 16:02:25,011] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/group/views.py changed, reloading.
+[2024-11-14 16:02:25,325] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-14 16:02:31,582] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/group/views.py changed, reloading.
+[2024-11-14 16:02:31,855] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-14 16:02:34,562] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /group/userList?id=38 HTTP/1.1" 200 75
+[2024-11-14 16:02:41,969] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /group/userList HTTP/1.1" 200 2795
+[2024-11-14 16:06:38,394] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/group/views.py changed, reloading.
+[2024-11-14 16:06:38,719] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-14 16:06:56,563] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /group/userList?username=%E5%B0%8F%E6%98%8E HTTP/1.1" 200 73
+[2024-11-14 16:07:02,668] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /group/userList?username=%E5%B0%8F%E4%BA%94 HTTP/1.1" 200 2
+[2024-11-14 16:07:08,492] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /group/userList?username= HTTP/1.1" 200 2795
+[2024-11-14 16:07:15,688] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /group/userList?username=Ardella67 HTTP/1.1" 200 76
+[2024-11-14 16:27:19,440] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /group/userList?username=Ardella67 HTTP/1.1" 200 76
+[2024-11-14 16:52:01,268] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/group/views.py changed, reloading.
+[2024-11-14 16:52:01,623] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
