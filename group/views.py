@@ -7,6 +7,7 @@ from rest_framework.response import Response
 from rest_framework.authtoken.models import Token
 from TPlatform.token_moduel import get_token
 import time
+from .serializer import GroupSerializer
 
 
 # 用户注册
@@ -90,3 +91,18 @@ class LoginUser(APIView):
         username = current_user['username']
         result = {"status": "100000", "data": {'username': username}}
         return Response(result, status=status.HTTP_200_OK)
+
+
+
+class UserList(APIView):
+    def get(self, request):
+        user_list = users.objects.all()
+        username = request.query_params.get("username")
+        serialize = GroupSerializer(user_list, many=True)
+
+        if username:
+            user = users.objects.filter(username=username)
+            user_serializer = GroupSerializer(user, many=True)
+            return Response(user_serializer.data, status=status.HTTP_200_OK)
+        else:
+            return Response(serialize.data, status=status.HTTP_200_OK)
