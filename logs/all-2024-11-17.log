@@ -1,0 +1,2 @@
+[2024-11-17 10:34:48,293] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-18 10:06:51,741] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/group/views.py changed, reloading.

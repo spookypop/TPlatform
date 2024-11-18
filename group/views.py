@@ -93,7 +93,6 @@ class LoginUser(APIView):
         return Response(result, status=status.HTTP_200_OK)
 
 
-
 class UserList(APIView):
     def get(self, request):
         user_list = users.objects.all()

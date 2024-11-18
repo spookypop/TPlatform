@@ -1,0 +1,247 @@
+[2024-11-18 10:06:52,089] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-18 10:08:00,176] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/group/views.py changed, reloading.
+[2024-11-18 10:08:00,466] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-18 10:08:44,076] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/register HTTP/1.1" 200 48
+[2024-11-18 10:19:33,903] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/group/views.py changed, reloading.
+[2024-11-18 10:19:34,295] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-18 10:57:47,492] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/SprintList/urls.py changed, reloading.
+[2024-11-18 10:57:47,829] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-18 11:13:56,115] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/SprintList/views.py changed, reloading.
+[2024-11-18 11:13:56,405] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-18 11:17:18,904] [log.py:241] [log:log_response] [WARNING]- Forbidden: /case/createsprint
+[2024-11-18 11:17:18,905] [basehttp.py:187] [basehttp:log_message] [WARNING]- "POST /case/createsprint HTTP/1.1" 403 28
+[2024-11-18 11:20:21,742] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/register HTTP/1.1" 200 48
+[2024-11-18 11:20:25,027] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/register HTTP/1.1" 200 51
+[2024-11-18 11:20:32,902] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/login HTTP/1.1" 200 139
+[2024-11-18 11:20:47,638] [log.py:241] [log:log_response] [WARNING]- Forbidden: /case/createsprint
+[2024-11-18 11:20:47,639] [basehttp.py:187] [basehttp:log_message] [WARNING]- "POST /case/createsprint HTTP/1.1" 403 28
+[2024-11-18 11:21:25,133] [log.py:241] [log:log_response] [WARNING]- Forbidden: /case/createsprint
+[2024-11-18 11:21:25,135] [basehttp.py:187] [basehttp:log_message] [WARNING]- "POST /case/createsprint HTTP/1.1" 403 28
+[2024-11-18 11:21:28,788] [log.py:241] [log:log_response] [WARNING]- Forbidden: /case/createsprint
+[2024-11-18 11:21:28,789] [basehttp.py:187] [basehttp:log_message] [WARNING]- "POST /case/createsprint HTTP/1.1" 403 28
+[2024-11-18 11:22:59,960] [log.py:241] [log:log_response] [WARNING]- Forbidden: /case/createsprint
+[2024-11-18 11:22:59,962] [basehttp.py:187] [basehttp:log_message] [WARNING]- "POST /case/createsprint HTTP/1.1" 403 28
+[2024-11-18 11:23:49,241] [log.py:241] [log:log_response] [WARNING]- Forbidden: /case/createsprint
+[2024-11-18 11:23:49,242] [basehttp.py:187] [basehttp:log_message] [WARNING]- "POST /case/createsprint HTTP/1.1" 403 28
+[2024-11-18 11:24:22,081] [log.py:241] [log:log_response] [WARNING]- Forbidden: /case/createsprint
+[2024-11-18 11:24:22,083] [basehttp.py:187] [basehttp:log_message] [WARNING]- "POST /case/createsprint HTTP/1.1" 403 28
+[2024-11-18 11:24:25,536] [log.py:241] [log:log_response] [WARNING]- Forbidden: /case/createsprint
+[2024-11-18 11:24:25,538] [basehttp.py:187] [basehttp:log_message] [WARNING]- "POST /case/createsprint HTTP/1.1" 403 28
+[2024-11-18 11:30:54,259] [log.py:241] [log:log_response] [WARNING]- Forbidden: /case/createsprint
+[2024-11-18 11:30:54,261] [basehttp.py:187] [basehttp:log_message] [WARNING]- "POST /case/createsprint HTTP/1.1" 403 28
+[2024-11-18 11:33:44,459] [log.py:241] [log:log_response] [WARNING]- Forbidden: /case/createsprint
+[2024-11-18 11:33:44,461] [basehttp.py:187] [basehttp:log_message] [WARNING]- "POST /case/createsprint HTTP/1.1" 403 28
+[2024-11-18 11:35:47,947] [log.py:241] [log:log_response] [WARNING]- Forbidden: /case/createsprint
+[2024-11-18 11:35:47,949] [basehttp.py:187] [basehttp:log_message] [WARNING]- "POST /case/createsprint HTTP/1.1" 403 28
+[2024-11-18 11:35:50,422] [log.py:241] [log:log_response] [WARNING]- Forbidden: /case/createsprint
+[2024-11-18 11:35:50,423] [basehttp.py:187] [basehttp:log_message] [WARNING]- "POST /case/createsprint HTTP/1.1" 403 28
+[2024-11-18 11:36:09,692] [log.py:241] [log:log_response] [WARNING]- Forbidden: /case/createsprint
+[2024-11-18 11:36:09,693] [basehttp.py:187] [basehttp:log_message] [WARNING]- "POST /case/createsprint HTTP/1.1" 403 28
+[2024-11-18 11:39:25,065] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/createsprint HTTP/1.1" 200 36
+[2024-11-18 11:41:11,569] [log.py:241] [log:log_response] [WARNING]- Forbidden: /case/createsprint
+[2024-11-18 11:41:11,570] [basehttp.py:187] [basehttp:log_message] [WARNING]- "DELETE /case/createsprint HTTP/1.1" 403 28
+[2024-11-18 11:42:32,439] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /case/createsprint
+Traceback (most recent call last):
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: Sprint.delete() missing 1 required positional argument: 'sprint_name'
+[2024-11-18 11:42:32,440] [basehttp.py:187] [basehttp:log_message] [ERROR]- "DELETE /case/createsprint HTTP/1.1" 500 84489
+[2024-11-18 11:43:21,497] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /case/createsprint
+Traceback (most recent call last):
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: Sprint.delete() missing 1 required positional argument: 'sprint_name'
+[2024-11-18 11:43:21,498] [basehttp.py:187] [basehttp:log_message] [ERROR]- "DELETE /case/createsprint?sprint_name=sprint_name HTTP/1.1" 500 85055
+[2024-11-18 11:44:27,036] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/SprintList/views.py changed, reloading.
+[2024-11-18 11:44:27,390] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-18 11:44:30,024] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /case/createsprint
+Traceback (most recent call last):
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/yehl/Documents/testPlaform/TPlatform/SprintList/views.py", line 34, in delete
+    del_sprint = self.get_object(sprint_name)
+AttributeError: 'Sprint' object has no attribute 'get_object'
+[2024-11-18 11:44:30,024] [basehttp.py:187] [basehttp:log_message] [ERROR]- "DELETE /case/createsprint?sprint_name=sprint_name HTTP/1.1" 500 89023
+[2024-11-18 11:45:49,001] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/SprintList/views.py changed, reloading.
+[2024-11-18 11:45:49,326] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-18 11:50:03,870] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/SprintList/views.py changed, reloading.
+[2024-11-18 11:50:04,141] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-18 11:50:32,514] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/createsprint HTTP/1.1" 200 55
+[2024-11-18 11:50:38,924] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/createsprint HTTP/1.1" 200 36
+[2024-11-18 11:51:02,872] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/createsprint HTTP/1.1" 200 55
+[2024-11-18 11:51:10,026] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/createsprint HTTP/1.1" 200 55
+[2024-11-18 11:51:26,042] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/TPlatform/TokenAuth.py changed, reloading.
+[2024-11-18 11:51:26,351] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-18 11:51:47,886] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/TPlatform/TokenAuth.py changed, reloading.
+[2024-11-18 11:51:48,164] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-18 11:51:51,869] [log.py:241] [log:log_response] [WARNING]- Forbidden: /case/createsprint
+[2024-11-18 11:51:51,869] [basehttp.py:187] [basehttp:log_message] [WARNING]- "POST /case/createsprint HTTP/1.1" 403 28
+[2024-11-18 11:51:58,048] [log.py:241] [log:log_response] [WARNING]- Forbidden: /case/createsprint
+[2024-11-18 11:51:58,052] [basehttp.py:187] [basehttp:log_message] [WARNING]- "POST /case/createsprint HTTP/1.1" 403 28
+[2024-11-18 11:52:21,624] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/createsprint HTTP/1.1" 200 55
+[2024-11-18 12:09:50,362] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/TPlatform/TokenAuth.py changed, reloading.
+[2024-11-18 12:09:50,732] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-18 12:11:05,557] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/TPlatform/TokenAuth.py changed, reloading.
+[2024-11-18 12:11:05,852] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-18 12:12:18,488] [log.py:241] [log:log_response] [WARNING]- Forbidden: /case/createsprint
+[2024-11-18 12:12:18,489] [basehttp.py:187] [basehttp:log_message] [WARNING]- "POST /case/createsprint HTTP/1.1" 403 28
+[2024-11-18 12:12:46,825] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/TPlatform/TokenAuth.py changed, reloading.
+[2024-11-18 12:12:47,095] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-18 12:12:51,637] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/createsprint HTTP/1.1" 200 55
+[2024-11-18 12:12:58,618] [log.py:241] [log:log_response] [WARNING]- Forbidden: /case/createsprint
+[2024-11-18 12:12:58,618] [basehttp.py:187] [basehttp:log_message] [WARNING]- "POST /case/createsprint HTTP/1.1" 403 28
+[2024-11-18 12:13:05,250] [log.py:241] [log:log_response] [WARNING]- Forbidden: /case/createsprint
+[2024-11-18 12:13:05,250] [basehttp.py:187] [basehttp:log_message] [WARNING]- "POST /case/createsprint HTTP/1.1" 403 28
+[2024-11-18 12:13:11,983] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/createsprint HTTP/1.1" 200 55
+[2024-11-18 12:13:59,241] [log.py:241] [log:log_response] [WARNING]- Forbidden: /case/createsprint
+[2024-11-18 12:13:59,242] [basehttp.py:187] [basehttp:log_message] [WARNING]- "DELETE /case/createsprint?sprint_name=sprint_name HTTP/1.1" 403 28
+[2024-11-18 12:14:12,834] [log.py:241] [log:log_response] [WARNING]- Forbidden: /case/createsprint
+[2024-11-18 12:14:12,835] [basehttp.py:187] [basehttp:log_message] [WARNING]- "DELETE /case/createsprint?sprint_name=sprint_name HTTP/1.1" 403 28
+[2024-11-18 12:15:13,870] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /case/createsprint
+Traceback (most recent call last):
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: Sprint.delete() missing 1 required positional argument: 'sprint_name'
+[2024-11-18 12:15:13,871] [basehttp.py:187] [basehttp:log_message] [ERROR]- "DELETE /case/createsprint?sprint_name=sprint_name HTTP/1.1" 500 84592
+[2024-11-18 12:15:49,792] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/SprintList/views.py changed, reloading.
+[2024-11-18 12:15:50,069] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-18 12:16:04,429] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/SprintList/views.py changed, reloading.
+[2024-11-18 12:16:04,666] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-18 12:16:08,026] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /case/createsprint
+Traceback (most recent call last):
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/yehl/Documents/testPlaform/TPlatform/SprintList/views.py", line 35, in delete
+    sprints.objects.get(sprint_name=del_sprint).delete()
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/db/models/query.py", line 496, in get
+    raise self.model.DoesNotExist(
+SprintList.models.sprints.DoesNotExist: sprints matching query does not exist.
+[2024-11-18 12:16:08,028] [basehttp.py:187] [basehttp:log_message] [ERROR]- "DELETE /case/createsprint?sprint_name=sprint_name HTTP/1.1" 500 97059
+[2024-11-18 12:17:20,082] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/group/views.py changed, reloading.
+[2024-11-18 12:17:20,371] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-18 12:19:46,348] [basehttp.py:187] [basehttp:log_message] [INFO]- "DELETE /case/createsprint?sprint_name=sprint_name HTTP/1.1" 204 0
+[2024-11-18 12:21:33,243] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/SprintList/views.py changed, reloading.
+[2024-11-18 12:21:33,516] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-18 12:21:41,717] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /case/createsprint
+Traceback (most recent call last):
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/yehl/Documents/testPlaform/TPlatform/SprintList/views.py", line 35, in delete
+    sprints.objects.get(sprint_name=del_sprint).delete()
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/yehl/Documents/软件测试资料/softwarebox/lib/python3.10/site-packages/django/db/models/query.py", line 496, in get
+    raise self.model.DoesNotExist(
+SprintList.models.sprints.DoesNotExist: sprints matching query does not exist.
+[2024-11-18 12:21:41,720] [basehttp.py:187] [basehttp:log_message] [ERROR]- "DELETE /case/createsprint?sprint_name=sprint_name HTTP/1.1" 500 97515
+[2024-11-18 12:21:49,336] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/createsprint HTTP/1.1" 200 55
+[2024-11-18 12:22:01,053] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/createsprint?sprint_name=sprint_name HTTP/1.1" 200 55
+[2024-11-18 12:22:26,067] [basehttp.py:187] [basehttp:log_message] [INFO]- "DELETE /case/createsprint?sprint_name=sprint_name HTTP/1.1" 200 38
+[2024-11-18 12:23:17,919] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/createsprint HTTP/1.1" 200 36
+[2024-11-18 12:23:44,205] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/SprintList/views.py changed, reloading.
+[2024-11-18 12:23:44,499] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-18 12:27:00,122] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/SprintList/views.py changed, reloading.
+[2024-11-18 12:27:00,442] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-18 12:28:19,620] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/yehl/Documents/testPlaform/TPlatform/SprintList/views.py changed, reloading.
+[2024-11-18 12:28:19,918] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2024-11-18 12:28:26,542] [basehttp.py:187] [basehttp:log_message] [INFO]- "DELETE /case/createsprint?sprint_name=sprint_name HTTP/1.1" 200 48
+[2024-11-18 12:28:28,833] [basehttp.py:187] [basehttp:log_message] [INFO]- "DELETE /case/createsprint?sprint_name=sprint_name HTTP/1.1" 200 51
+[2024-11-18 13:43:01,269] [log.py:241] [log:log_response] [WARNING]- Forbidden: /case/createsprint
+[2024-11-18 13:43:01,271] [basehttp.py:187] [basehttp:log_message] [WARNING]- "DELETE /case/createsprint HTTP/1.1" 403 28
+[2024-11-18 13:43:45,140] [log.py:241] [log:log_response] [WARNING]- Forbidden: /case/createsprint
+[2024-11-18 13:43:45,143] [basehttp.py:187] [basehttp:log_message] [WARNING]- "DELETE /case/createsprint HTTP/1.1" 403 28
+[2024-11-18 13:44:19,923] [log.py:241] [log:log_response] [WARNING]- Forbidden: /case/createsprint
+[2024-11-18 13:44:19,925] [basehttp.py:187] [basehttp:log_message] [WARNING]- "POST /case/createsprint HTTP/1.1" 403 28
+[2024-11-18 13:44:56,959] [log.py:241] [log:log_response] [WARNING]- Forbidden: /case/createsprint
+[2024-11-18 13:44:56,960] [basehttp.py:187] [basehttp:log_message] [WARNING]- "POST /case/createsprint HTTP/1.1" 403 28
+[2024-11-18 13:46:12,630] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /group/login HTTP/1.1" 200 143
+[2024-11-18 13:46:50,415] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /case/createsprint HTTP/1.1" 200 46
+[2024-11-18 13:52:32,375] [log.py:241] [log:log_response] [WARNING]- Forbidden: /case/sprintlist
+[2024-11-18 13:52:32,377] [basehttp.py:187] [basehttp:log_message] [WARNING]- "GET /case/sprintlist HTTP/1.1" 403 28
+[2024-11-18 13:53:39,585] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /case/sprintlist HTTP/1.1" 200 263

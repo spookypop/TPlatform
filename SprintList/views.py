@@ -20,7 +20,7 @@ class Sprint(APIView):
             if sprints.objects.filter(sprint_name=sprint_name).count() < 1:
                 # 新增迭代，数据库新增一条数据
                 sprints.objects.create(sprint_name=sprint_name)
-                result = {"status": "200", "data": {'msg': 'OK'}}
+                result = {"status": "200", "data": {'msg': '新增成功'}}
                 return Response(result, status=status.HTTP_200_OK)
             else:
                 result = {"status": "500", "data": {'msg': '迭代名称已存在'}}
@@ -31,22 +31,31 @@ class Sprint(APIView):
 
     # 删除迭代
     def delete(self, request):
-        sprint_name = request.data.get('sprint_name')
-        username = request.data.get('username')
-        sprints.objects.get(sprint_name=sprint_name).delete()
-        if sprints.objects.filter(sprint_name=sprint_name).count() < 1:
-            result = {"status": "200", "data": {'msg': 'OK'}}
+        del_sprint = request.data.get("sprint_name")
+        if sprints.objects.filter(sprint_name=del_sprint).count() > 0:
+            sprints.objects.get(sprint_name=del_sprint).delete()
+            result = {"status": "10000", "data": {'msg': '删除成功'}}
             return Response(result, status=status.HTTP_200_OK)
         else:
-            result = {"status": "500", "data": {'msg': '删除失败'}}
+            result = {"status": "10020", "data": {'msg': '迭代不存在'}}
             return Response(result, status=status.HTTP_200_OK)
+    # def delete(self, request):
+    #     sprint_name = request.data.get('sprint_name')
+    #     username = request.data.get('username')
+    #     sprints.objects.get(sprint_name=sprint_name).delete()
+    #     if sprints.objects.filter(sprint_name=sprint_name).count() < 1:
+    #         result = {"status": "200", "data": {'msg': 'OK'}}
+    #         return Response(result, status=status.HTTP_200_OK)
+    #     else:
+    #         result = {"status": "500", "data": {'msg': '删除失败'}}
+    #         return Response(result, status=status.HTTP_200_OK)
 
 
 # 查询所有迭代数据库
 class SprintList(APIView):
     authentication_classes = [TokenAuth]
 
-    def post(self, request):
+    def get(self, request):
         # username = request.data.get('username')
         sprint_list = sprints.objects.all()
         serialize = SprintSerializer(sprint_list, many=True)

@@ -6,8 +6,8 @@ from TPlatform.token_moduel import get_token, out_token
 
 class TokenAuth(BaseAuthentication):
     def authenticate(self, request):
-        token = request.headers.get('Authorization')  # 获取前端传的token
-        key = request.data.get('username')
+        token = request.headers.get('token')  # 获取前端传的token
+        key = request.headers.get('username')
         token_obj = out_token(key, token)
         # token_obj=Token.objects.filter(key=token) # 校验是否有该token
         if token_obj:
